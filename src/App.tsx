@@ -8,7 +8,7 @@ const App = (): JSX.Element => {
         useForecast()
 
     return (
-        <main className="flex justify-center items-center bg-gradient-to-bl from-zinc-900 via-blue-900 to-amber-700 h-[100vh] w-full">
+        <main className="flex justify-center items-center bg-gradient-to-bl from-orange-400 via-amber-400 to-pink-500 h-[100vh] w-full">
             {forecast ? (
                 <Forecast data={forecast} />
             ) : (
